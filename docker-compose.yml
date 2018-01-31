@@ -1,7 +1,7 @@
 ---
 daemon:
-  build: .
-#  image: quay.io/kwiksand/craved:latest
+#  build: .
+  image: quay.io/kwiksand/craveng-d:latest
   ports:
    - "30104:30104"
    - "30105:30105"
